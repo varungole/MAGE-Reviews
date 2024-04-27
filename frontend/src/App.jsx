@@ -28,7 +28,7 @@ function App() {
       <Route path='/software/software-admits' element={<SoftwareAdmits />}></Route>
       <Route path='/robotics' element={<Robotics/>}></Route>
       <Route path="/software/software-courses" element={<SoftwareCourses />}></Route>
-      <Route path="/software/submireviewt-" element={<Form />}></Route>
+      <Route path="/submit-review" element={<Form />}></Route>
 
     </Routes>
     <Footer />

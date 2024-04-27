@@ -433,3 +433,92 @@ h2 {
 .professor {
   font-style: italic;
 }
+
+.review-form {
+  width: 300px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.review-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.review-name-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.review-name-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.review-name-input::placeholder {
+  color: #aaa;
+}
+
+.review-submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.review-submit-button:hover {
+  background-color: #0056b3;
+}
+
+.review-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.review-name-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.review-name-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.review-name-input::placeholder {
+  color: #aaa;
+}
+
+.form-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
