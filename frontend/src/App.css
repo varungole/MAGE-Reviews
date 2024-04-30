@@ -522,3 +522,59 @@ h2 {
 .form-button:hover {
   background-color: #0056b3;
 }
+
+/* Styles for the form container and overall layout */
+.review-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* Style for labels */
+.review-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Input fields styling */
+.review-name-input,
+.review-input,
+.review-rating-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Modifying the input fields when they are active or in focus */
+.review-name-input:focus,
+.review-input:focus,
+.review-rating-input:focus {
+  outline: none;
+  border-color: #6658D3; /* Change the color as needed */
+  box-shadow: 0 0 0 2px rgba(102, 88, 211, 0.2);
+}
+
+/* Button styling */
+.form-button {
+  background-color: #6658D3; /* Purple shade, modify as necessary */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for button */
+.form-button:hover {
+  background-color: #5848b8; /* Darker purple */
+}
+
