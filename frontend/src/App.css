@@ -581,3 +581,84 @@ h2 {
 .success-title {
   margin-left: 5rem;
 }
+
+.GRE-Input {
+   width: 30%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+}
+
+.toefl-input {
+  width: 30%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+}
+
+.software-admits {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.admit-category {
+  background-color: #f8f8f8;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.admits-items {
+  margin-top: 20px;
+}
+
+.admit-item {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.admit-item h3 {
+  margin: 0 10px;
+}
+
+.score {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.score-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.score-form label {
+  margin-bottom: 5px;
+}
+
+.score-form input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+
+.score-form button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.score-form button:hover {
+  background-color: #45a049;
+}
