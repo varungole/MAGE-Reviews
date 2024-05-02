@@ -11,6 +11,7 @@ import SoftwareAdmits from "./components/Admits/SoftwareAdmits";
 import Robotics from "./components/Courses/Robotics";
 import SoftwareCourses from "./components/Program-Courses/SoftwareCourses";
 import Form from "./components/Form";
+import FormSuccess from "./components/Reviews/FormSuccess";
 
 function App() {
   
@@ -29,6 +30,7 @@ function App() {
       <Route path='/robotics' element={<Robotics/>}></Route>
       <Route path="/software/software-courses" element={<SoftwareCourses />}></Route>
       <Route path="/submit-review" element={<Form />}></Route>
+      <Route path="/success" element={<FormSuccess />}></Route>
 
     </Routes>
     <Footer />

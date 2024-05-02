@@ -22,7 +22,7 @@ function Form() {
     axios.post(URL, formData)
       .then(response => {
         console.log(response.data);
-        navigate('/software'); // Navigate on successful submission
+        navigate('/success'); // Navigate on successful submission
       })
       .catch(error => {
         console.log(error);
