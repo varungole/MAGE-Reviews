@@ -662,3 +662,11 @@ h2 {
 .score-form button:hover {
   background-color: #45a049;
 }
+
+.name-input {
+  width: 28%;
+}
+
+.submit-button-admits {
+  width: 15%;
+}

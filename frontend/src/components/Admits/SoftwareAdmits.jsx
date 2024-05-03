@@ -9,22 +9,12 @@
     const [GRE, setGRE] = useState('');
     const [TOEFL, setTOEFL] = useState('');
     const [workex, setWorkex] = useState('');
+    const [name, setName] = useState('');
+
     
     return (
       <div className="software-admits">
         <h2>Software Admissions</h2>
-        <div className="admit-category">
-          <h3>GRE Score</h3>
-          <p>Average GRE score for admitted students: 325</p>
-        </div>
-        <div className="admit-category">
-          <h3>TOEFL Score</h3>
-          <p>Average TOEFL score for admitted students: 105</p>
-        </div>
-        <div className="admit-category">
-          <h3>Work Experience</h3>
-          <p>Average years of work experience for admitted students: 2.5</p>
-        </div>
 
         <div className='admits-items'>
           <div className='admit-item'>
@@ -49,22 +39,22 @@
           </div>
 
         </div>
-        <div className='score'>Enter your score !
+        <div className='score'>
           <form className='score-form' onSubmit={handleSubmit}>
-            <label className='gre'>GRE</label>
 
+            <label className='name'>Enter your name</label>
+            <input className='name-input' required type='text' value={name} onChange={(e) => setName(e.target.value)}></input>
+
+            <label className='gre'>GRE</label>
             <input className='GRE-Input' required type='text' value={GRE} onChange={(e) => {setGRE(e.target.value)}}></input>
 
             <label className='Toefl'>TOEFL</label>
             <input className='toefl-input' required type='text' value={TOEFL} onChange={(e) => {setTOEFL(e.target.value)}}></input>
 
-            <label className='Workex' required type='text'>TOEFL</label>
-            <input className='toefl-input' type='text' value={TOEFL} onChange={(e) => {setTOEFL(e.target.value)}}></input>
-
             <label className='Workex' required type='text' value={workex} onChange={(e) => {setWorkex(e.target.value)}}>Enter your workex years</label>
             <input className='toefl-input' type='text' required value={workex} onChange={(e) => {setWorkex(e.target.value)}}></input>
 
-            <button type='submit'></button>
+            <button type='submit' className='submit-button-admits'>Submit</button>
           </form>
           </div>
       </div>

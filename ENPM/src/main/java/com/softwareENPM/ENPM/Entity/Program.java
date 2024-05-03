@@ -37,4 +37,7 @@ public class Program {
     @OneToMany(mappedBy = "programId")
     private List<Course> courses;
 
+    @OneToMany(mappedBy = "programId")
+    private List<Scores> scores;
+
 }
