@@ -670,3 +670,105 @@ h2 {
 .submit-button-admits {
   width: 15%;
 }
+
+.admits-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the score cards vertically */
+  padding: 20px;
+}
+
+.admits-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.score-template {
+  padding: 10px;
+  width: 30;
+  background-color: #f9f9f9;
+  border: 1px solid;
+}
+
+
+.software-admits {
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f4f8;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.admits-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+
+.score-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+.score-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #5c677d;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button-admits {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.submit-button-admits:hover {
+  background-color: #45a049;
+}
+
+.admits-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+
+
+.score-name, .gre-score, .toefl-score, .workex {
+  font-size: 0.9em; /* Smaller font size */
+}
+
+@media (max-width: 600px) {
+  .score-template {
+    width: 100%; /* Full width on small devices for better readability */
+  }
+}
