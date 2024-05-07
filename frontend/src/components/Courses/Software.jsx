@@ -13,7 +13,7 @@ function Software() {
         <div className='program-reviers' onClick={() => {navigateTo('software-reviews')}}>Program reviews</div>
         <div className='admit-scores' onClick={() => {navigateTo('software-admits')}}>Admit chance and scores</div>
         <div className='courses' onClick={() => {navigateTo('software-courses')}}>Program courses</div>
-        <div className='placements'>Placements</div>
+        <div className='placements' onClick={() => navigateTo('software-placements')}>Placements</div>
     </div>
   )
 }

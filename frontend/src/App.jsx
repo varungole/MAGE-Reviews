@@ -12,6 +12,7 @@ import Robotics from "./components/Courses/Robotics";
 import SoftwareCourses from "./components/Program-Courses/SoftwareCourses";
 import Form from "./components/Form";
 import FormSuccess from "./components/Reviews/FormSuccess";
+import SoftwarePlacements from "./components/Placements/SoftwarePlacements";
 
 function App() {
   
@@ -31,7 +32,7 @@ function App() {
       <Route path="/software/software-courses" element={<SoftwareCourses />}></Route>
       <Route path="/submit-review" element={<Form />}></Route>
       <Route path="/success" element={<FormSuccess />}></Route>
-
+      <Route path="/software/software-placements" element={<SoftwarePlacements />}></Route>
     </Routes>
     <Footer />
     </BrowserRouter>
