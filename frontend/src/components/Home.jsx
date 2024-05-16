@@ -45,6 +45,9 @@ function Home() {
                     </div>
                 ))}
             </div>
+            <div className='terminal'>
+                <button className='terminal-button'>Open a terminal!</button>
+            </div>
         </div>
     )
 }
