@@ -1,14 +1,32 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import axios from 'axios';
 
 function MarketMain() {
 
-  const stocks = ["APPLE", "AMZN", "GOOGL", "IBM", "NTFLX", "IBKR", "QUORUM"];
+  const URL = 'http://localhost:8080/api/market/v1';
+
+  const [marketData, setMarketData] = useState([]);
+  
+  const fetchData = async() => {
+    try {
+      const response = await axios.get('http://localhost:8080/api/market/v1');
+      setMarketData(response.data);
+      console.log(marketData);
+  } catch (error) {
+      console.error('Error fetching programs:', error);
+  }
+  }
+
+  useEffect(() => {
+    fetchData()
+  }, []);
+
   return (
     <div className='stock-all'>
-      {stocks.map((stock, index) => (
+      {marketData.map((stock, index) => (
         <div className='stock-frame' key={index}>
-        <h1 className='stock-name'>{stocks[index]}</h1>
-        <h4 className='stock-price'>500</h4>
+        <h1 className='stock-name'>{stock.symbol}</h1>
+        <h4 className='stock-price'>{stock.price}</h4>
         <button className='purchase'>Buy</button>
         </div>
       ))}

@@ -7,10 +7,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import com.softwareENPM.ENPM.Entity.Order;
-import com.softwareENPM.ENPM.Entity.Trade;
 import com.softwareENPM.ENPM.Enums.OrderStatus;
 import com.softwareENPM.ENPM.Repository.OrderRepository;
-import com.softwareENPM.ENPM.Repository.TradeRepository;
 import java.util.*;
 import jakarta.transaction.Transactional;
 
