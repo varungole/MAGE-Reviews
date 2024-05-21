@@ -27,6 +27,7 @@ function MarketMain() {
         <div className='stock-frame' key={index}>
         <h1 className='stock-name'>{stock.symbol}</h1>
         <h4 className='stock-price'>{stock.price}</h4>
+        <input type='number' className='stock-quantity'></input>
         <button className='purchase'>Buy</button>
         </div>
       ))}

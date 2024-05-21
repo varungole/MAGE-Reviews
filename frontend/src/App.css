@@ -929,5 +929,7 @@ input[type="text"] {
   background-color: #0056b3;
 }
 
-
+.stock-quantity {
+  width: 40px;
+}
 
