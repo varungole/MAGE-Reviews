@@ -46,7 +46,7 @@ function Home() {
                 ))}
             </div>
             <div className='terminal'>
-                <button className='terminal-button'>Open a terminal!</button>
+                <button className='terminal-button' onClick={() => navigateTo('/market-home')}>Go to market!</button>
             </div>
         </div>
     )

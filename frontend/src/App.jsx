@@ -14,6 +14,7 @@ import Form from "./components/Form";
 import FormSuccess from "./components/Reviews/FormSuccess";
 import SoftwarePlacements from "./components/Placements/SoftwarePlacements";
 import SubmitPlacement from "./components/Placements/SubmitPlacement";
+import MarketMain from "./components/Market/MarketMain";
 
 function App() {
   
@@ -35,6 +36,8 @@ function App() {
       <Route path="/success" element={<FormSuccess />}></Route>
       <Route path="/software/software-placements" element={<SoftwarePlacements />}></Route>
       <Route path="/submit-software-placement" element={<SubmitPlacement/>}></Route>
+      <Route path="/market-home" element={<MarketMain />}></Route>
+
     </Routes>
     <Footer />
     </BrowserRouter>
