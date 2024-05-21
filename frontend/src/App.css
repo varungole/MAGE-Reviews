@@ -800,3 +800,94 @@ input[type="text"] {
 .terminal-button:hover {
     background-color: #0056b3; /* Darker blue when hovered */
 }
+
+.software-placements {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.placement-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.placement {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.placement h2 {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.placement .name {
+  font-weight: bold;
+}
+
+.placement .companyName {
+  font-weight: normal;
+  color: #555;
+}
+
+.placment {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.placement-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.placement-form label {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.placement-form input {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.placement-form input:focus {
+  outline: none;
+  border-color: #777;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button-placements {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button-placements:hover {
+  background-color: #0056b3;
+}
+
+
