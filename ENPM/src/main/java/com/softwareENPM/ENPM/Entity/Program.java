@@ -40,4 +40,7 @@ public class Program {
     @OneToMany(mappedBy = "programId")
     private List<Scores> scores;
 
+    @OneToMany(mappedBy = "programId")
+    private List<Placement> placements;
+
 }
