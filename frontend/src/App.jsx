@@ -15,12 +15,14 @@ import FormSuccess from "./components/Reviews/FormSuccess";
 import SoftwarePlacements from "./components/Placements/SoftwarePlacements";
 import SubmitPlacement from "./components/Placements/SubmitPlacement";
 import MarketMain from "./components/Market/MarketMain";
+import Login from "./components/Login";
 
 function App() {
   
   
   return (
     <div>
+
     <BrowserRouter>
     <Navbar />
     <Routes>
@@ -37,6 +39,7 @@ function App() {
       <Route path="/software/software-placements" element={<SoftwarePlacements />}></Route>
       <Route path="/submit-software-placement" element={<SubmitPlacement/>}></Route>
       <Route path="/market-home" element={<MarketMain />}></Route>
+      <Route path="/login" element={<Login />}></Route>
 
     </Routes>
     <Footer />

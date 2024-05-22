@@ -17,9 +17,6 @@ public class OrderService {
     
     @Autowired
     private OrderRepository orderRepository;
-
-    @Autowired
-    private MarketDataFeedSimulator marketDataFeedSimulator;
     
     private void getMarketData()
     {

@@ -40,7 +40,6 @@ function Home() {
                     <div key={index} className='program-value' onClick={() => navigateTo(URL[index])}>
                         
                         <img className='image' src={IMAGES[index]} alt={`${program.name}-logo`} />
-                        {console.log(program.name)}
                         <h3 className='program-title'>{program.programName}</h3>
                     </div>
                 ))}
